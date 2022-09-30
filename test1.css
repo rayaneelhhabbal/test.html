@@ -1,0 +1,44 @@
+#pomme{background: linear-gradient(red,orange);}
+#poire{ background-color: blanchedalmond;
+margin: auto;}
+span{color:red;
+}
+#pomme{display: flex;
+    flex-flow:column;
+    float: left;
+    align-items: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    background: linear-gradient(red,orange);
+    width: 100%;
+    height: 200%;
+    border: 2px solid ;
+    box-sizing: border-box}
+#poire{
+    display: flex;
+    float: left;
+    flex-flow: flex-start ;
+    align-items: flex-start;
+    justify-content: start;
+    align-content: space-around;
+    background-color: blanchedalmond;
+    width: 75%;
+    height:100%;
+    border: 2px solid ;
+    box-sizing: border-box
+}
+#coco{
+    display: flex;
+    float: left;
+    flex-flow:flex-start;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    align-content: space-around;
+    background: linear-gradient(blanchedalmond,brown);
+    width: 25%;
+    height: 1539.33px;
+    border: 2px solid ;
+    box-sizing: border-box
+}
+#coco{color: darkred;}
